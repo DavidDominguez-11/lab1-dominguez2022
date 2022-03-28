@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Raleway', sans-serif; 
+}
+
+.hero{
+    
+    height: 100vh;
+    /* fondo de imagen */
+    background-image: url(img/img.jpg);
+    background-size: cover;
+    background-position: center;
+
+    /* Iniciar Flex-Box*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    color: white;
+    width: 500px;
+    background-color: black;
+}
+
+.descripcion{
+    color: white;
+    width: 500px;
+
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 5px 20px;
+
+    text-align: justify;
+    background-color: black;
+
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.skills h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.contacto h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.sep{
+    height: 30px;
+}
